@@ -29,7 +29,7 @@ tasks.jar {
         .map(::zipTree)
     from(dependencies)
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-    archiveBaseName.set("2.UnitTests")
+    archiveBaseName.set("UnitTests")
 }
 
 
