@@ -1,4 +1,4 @@
-package com.company.unitTests;
+package com.company.unit_tests;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.company.unitTests;
+package com.company.unit_tests;
 
 public class SumCalculator {
     public int sum(int n) {

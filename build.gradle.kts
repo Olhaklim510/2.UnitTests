@@ -22,7 +22,7 @@ tasks.getByName<Test>("test") {
 }
 
 tasks.jar {
-    manifest.attributes["Main-Class"] = "com.company.unitTests.App"
+    manifest.attributes["Main-Class"] = "com.company.unit_tests.App"
     val dependencies = configurations
         .runtimeClasspath
         .get()
